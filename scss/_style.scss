@@ -12,3 +12,8 @@ header * {
 .NURIWEB {
   font-family: fantasy;
 }
+
+.card_container {
+  display: grid;
+  justify-items: stretch;
+}
