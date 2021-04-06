@@ -9,35 +9,63 @@
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css"> 
 </head>
 <body>
-    <header class="row my-1">
-
-        <div class="iconAndLogo d-flex flex-column align-items-center flex-md-row col-3">
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
             <i class="bi bi-box cfs-2 "></i>
-            <h1 class="h5 my-0 me-md-auto cfs-2 ms-2"></i>NURIWEB</h1>
-        </div>
-        <div class="header_search_wrapper d-flex flex-column align-items-center flex-md-row col-3">
+            <span class="fs-4">NURIWEB</span>
+            
             <form class="">
                 <input type="search" class="form-control form-control-dark" placeholder="Search...">
             </form>
             <button class="btn btn-primary" type="submit">검색 / 게시판 찾기</button>
+          </a>
+      
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">마이피</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">중고장터</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">누리웹정보</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active btn-outline-primary">즐겨찾기</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active">로그아웃</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active">🌙</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active">퀵매뉴</a></li>
+          </ul>
+        </header>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="Eighth navbar example">
+        <div class="container-xl">
+          <a class="navbar-brand" href="#">Container</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown07">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>`
+            </ul>
+            <form>
+              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
         </div>
-
-        
-        <div class="btn-toolbar col-6" role="toolbar" aria-label="Toolbar with button groups">
-            <div class="btn-group me-2" role="group" aria-label="First group">
-              <button type="button" class="btn btn-outline-primary">마이피</button>
-              <button type="button" class="btn btn-outline-primary">중고장터</button>
-              <button type="button" class="btn btn-outline-primary">누리웹정보</button>
-            </div>
-            <div class="btn-group me-2" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-outline-primary">즐겨찾기</button>
-              <button type="button" class="btn btn-outline-primary">로그아웃</button>
-              <button type="button" class="btn btn-outline-primary">0</button>
-              <button type="button" class="btn btn-outline-primary">퀵매뉴</button>
-            </div>
-        </div>
-
-    </header>
+    </nav>
 
   
 
@@ -49,44 +77,101 @@
                 featuring Sass variables and mixins, responsive grid system, 
                 extensive prebuilt components, and powerful JavaScript plugins.</p>
         </div>
-        <div class="g-3 row mb-5 text-center my-4">
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <div class="card-header">JYP</div>
-                    <div class="card-body">
-                        <h3 class="card-title text-danger">ceo</h3>
-                        <ul class="list-unstyled text-success"> 
-                            <li>No pain</li>
-                            <li>No gain</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <div class="card-header">JYP</div>
-                    <div class="card-body">
-                        <h3 class="card-title text-black-50">ceo</h3>
-                        <ul class="list-unstyled text-info">
-                            <li>No pain</li>
-                            <li>No gain</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title text-muted">ceo</h3>
-                        <ul class="list-unstyled text-warning">
-                            <li>No pain</li>
-                            <li>No gain</li>
-                        </ul>
-                    </div>
-                    <div class="card-header">JYP</div>
-                </div>
-            </div>
-        </div>
+       
     </section>
+
+    <main class="row d-flex flex-column align-items-center flex-md-row">
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">
+            From the Firehose
+          </h3>
+
+          
+    
+          <article class="blog-post">
+            
+            <h3>Sub-heading</h3>
+            <p>You got the finest architecture. Passport stamps, she's cosmopolitan. Fine, fresh, fierce, we got it on lock. Never planned that one day I'd be losing you. She eats your heart out.</p>
+            <ul>
+              <li>Got a motel and built a fort out of sheets.</li>
+              <li>Your kiss is cosmic, every move is magic.</li>
+              <li>Suiting up for my crowning battle.</li>
+            </ul>
+            <p>Takes you miles high, so high, 'cause she’s got that one international smile.</p>
+            <ol>
+              <li>Scared to rock the boat and make a mess.</li>
+              <li>I could have rewrite your addiction.</li>
+              <li>I know you get me so I let my walls come down.</li>
+            </ol>
+            <p>After a hurricane comes a rainbow.</p>
+          </article><!-- /.blog-post -->
+    
+          <article class="blog-post">
+            <h2 class="blog-post-title">Another blog post</h2>
+            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+    
+            <p>I am ready for the road less traveled. Already <a href="#">brushing off the dust</a>. Yeah, you're lucky if you're on her plane. I used to bite my tongue and hold my breath. Uh, She’s a beast. I call her Karma (come back). Black ray-bans, you know she's with the band. I can't sleep let's run away and don't ever look back, don't ever look back.</p>
+            <blockquote>
+              <p>Growing fast into a <strong>bolt of lightning</strong>. Be careful Try not to lead her on</p>
+            </blockquote>
+            <p>I'm intrigued, for a peek, heard it's fascinating. Oh oh! Wanna be a victim ready for abduction. She's got that international smile, oh yeah, she's got that one international smile. Do you ever feel, feel so paper thin. I’m gon’ put her in a coma. Sun-kissed skin so hot we'll melt your popsicle.</p>
+            <p>This is transcendental, on another level, boy, you're my lucky star.</p>
+          </article><!-- /.blog-post -->
+    
+          <article class="blog-post">
+            <h2 class="blog-post-title">New feature</h2>
+            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+    
+            <p>From Tokyo to Mexico, to Rio. Yeah, you take me to utopia. I'm walking on air. We'd make out in your Mustang to Radiohead. I mean the ones, I mean like she's the one. Sun-kissed skin so hot we'll melt your popsicle. Slow cooking pancakes for my boy, still up, still fresh as a Daisy.</p>
+            <ul>
+              <li>I hope you got a healthy appetite.</li>
+              <li>You're never gonna be unsatisfied.</li>
+              <li>Got a motel and built a fort out of sheets.</li>
+            </ul>
+            <p>Don't need apologies. Boy, you're an alien your touch so foreign, it's <em>supernatural</em>, extraterrestrial. Talk about our future like we had a clue. I can feel a phoenix inside of me.</p>
+          </article><!-- /.blog-post -->
+    
+          <nav class="blog-pagination" aria-label="Pagination">
+            <a class="btn btn-outline-primary" href="#">Older</a>
+            <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+          </nav>
+    
+        </div>
+    
+        <div class="col-md-4">
+          <div class="p-4 mb-3 bg-light rounded">
+            <h4 class="fst-italic">About</h4>
+            <p class="mb-0">Saw you downtown singing the Blues. Watch you circle the drain. Why don't you let me stop by? Heavy is the head that <em>wears the crown</em>. Yes, we make angels cry, raining down on earth from up above.</p>
+          </div>
+    
+          <div class="p-4">
+            <h4 class="fst-italic">Archives</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#">March 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+            </ol>
+          </div>
+    
+          <div class="p-4">
+            <h4 class="fst-italic">Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div>
+        </div>
+    
+    </main>
 </body>
 </html>
