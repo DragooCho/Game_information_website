@@ -15,11 +15,10 @@
 
 #### `Front-end`
 
-- **javascript**
 - **HTML5**
 - Bootstrap 5.0.0 beta1
 
-## 3. 그 외 프로젝트 기술된 사이트
+## 3. 그 외 프로젝트에 대한 기술...
 - 이 프로젝트의 자세한 설명은 여기 링크 안에 기록해 두었습니다.     
   https://www.notion.so/f0747f5f56fe445c9eb851360f66fd22?v=0c10e497915340188a5673dac092fa02
 
