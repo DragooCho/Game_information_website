@@ -2,9 +2,6 @@ body {
   display: block;
 }
 
-header * {
-}
-
 .headerNav {
   font-family: Arial;
 }
@@ -13,11 +10,21 @@ header * {
   font-family: fantasy;
 }
 
-// .card_container {
-//   display: grid;
-//   justify-items: stretch;
-// }
-
 header ul li .nav-link_text {
   color: red;
+}
+
+main .costom_color_card {
+  color: aliceblue;
+  background-color: $nuriweb_color;
+}
+
+main .cardAside_card {
+  width: 200px;
+  height: 80px;
+  border: solid 5px rgb(255, 255, 255);
+}
+
+main .cardAside_card:hover {
+  border: solid 5px $nuriweb_color;
 }
