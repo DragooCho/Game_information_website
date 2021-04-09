@@ -1,199 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game information website</title>
-    <link rel="stylesheet" href="css/main.css"> 
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css"> 
-</head>
-<body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center align-items-center  ">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <i class="bi bi-box cfs-6"></i>
-            <span class="fs-4 NURIWEB text-black-100">NURIWEB</span>
-            
-            <form class="">
-                <input type="search" class="form-control form-control-dark" placeholder="Search...">
-            </form>
-            <button class="btn btn-primary" type="submit">검색 / 게시판 찾기</button>
-          </a>
-      
-          <ul class="nav nav-pills mb-3 mb-md-0 me-md-auto">
-            <li class="nav-item"><a href="#" class="nav-link text-danger">마이피</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-black-50">중고장터</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-black-50">누리웹정보</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active btn-outline-primary">즐겨찾기</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active">로그아웃</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active">🌙</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active">퀵매뉴</a></li>
-          </ul>
-        </header>
-    </div>
 
-    <ul class="nav justify-content-center fw-bold cfs-3n headerNav bg-primary " >
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">PS4/5</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">SWITCH</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">XBO/SX</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">PC</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">모바일</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">AC/고전</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">뉴스</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">핫딜</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">취미갤</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">β타임라인</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">β유게</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">커뮤니티</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">BEST</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">게임찾기</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">|</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">만화</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">피규어</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">프라</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">애니/책</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-di  sabled="true">중고장터</a>
-        </li>
-    </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game information website</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    </head>
 
-    <main class="row bg-secondary w-100 m-0">
-        <div class="col-2 cardAdvertising bg-warning">Advertising</div>
+    <body>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center align-items-center  ">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                   
+                    <i class="bi bi-box cfs-6 text-primary  pe-2 text"></i>
+                    <span class="fs-4 NURIWEB text-black-100 pe-3">NURIWEB</span>
 
-        <div class="col-6 bg-success main_main ">
-          <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Default</a>
-            </div>
-          </nav>
-          <container class="row justify-content-center card_container" >
-            <div class="col-6 cards_main_image bg-info" style="width: 450px; height: 320px;">
-              <div class="card-body">
-                <h5 class="card-title">Card title 1</h5>
-              </div>
-            </div>
-            <div class="col-6 row row-cols-2 cardAside " style="width: 430px; height: 320px;">
-              <div class="col costom_color_card cardAside_card">
-                <div class="card-body">
-                  <p class="card-title">Card title 2</p>
-                </div>
-              </div>
-              <div class="col bg-info cardAside_card">
-                <div class="card-body">
-                  <p class="card-title">Card title 3</p>
-                </div>
-              </div>
-              <div class="col bg-warning cardAside_card ">
-                <div class="card-body">
-                  <p class="card-title">Card title 4</p>
-                </div>
-              </div>
-              <div class="col bg-success cardAside_card">
-                <div class="card-body">
-                  <p class="card-title">Card title 5</p>
-                </div>
-              </div>
-              <div class="col bg-danger cardAside_card">
-                <div class="card-body">
-                  <p class="card-title">Card title 6</p>
-                </div>
-              </div>
-              <div class="col bg-info cardAside_card">
-                <div class="card-body">
-                  <p class="card-title">Card title 7</p>
-                </div>
-              </div>
-              <div class="col bg-success cardAside_card">
-                <div class="card-body">
-                  <p class="card-title">Card title 8</p>
-                </div>
-              </div>
-              <div class="col bg-warning cardAside_card">
-                <div class="card-body">
-                  <p class="card-title">Card title 9</p>
-                </div>
-              </div>
-            </div>
-          </container>
+                    <form class="">
+                        <input type="search" class="form-control form-control-dark" placeholder="Search...">
+                    </form>
+                    <button class="btn btn-primary" type="submit">검색 / 게시판 찾기</button>
+                </a>
+
+                <ul class="nav nav-pills mb-3 mb-md-0 me-md-auto">
+                    <li class="nav-item"><a href="#" class="nav-link text-danger">마이피</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black-50">중고장터</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black-50">누리웹정보</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active btn-outline-primary">즐겨찾기</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active">로그인</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active">🌙</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active">퀵매뉴</a></li>
+                </ul>
+            </header>
         </div>
 
-        <div class="col-2 bg-danger">
-          <div class="row ">
-            <div class="col-6 p-4 mb-3 bg-light rounded">
-              <h4 class="fst-italic">About</h4>
-              <p class="mb-0">Saw you downtown singing the Blues. Watch you circle the drain. Why don't you let me stop by? Heavy is the head that <em>wears the crown</em>. Yes, we make angels cry, raining down on earth from up above.</p>
-            </div>
-      
-            <div class="col-6 p-4">
-              <h4 class="fst-italic">Archives</h4>
-              <ol class="list-unstyled mb-0">
-                <li><a href="#">March 2014</a></li>
-                <li><a href="#">February 2014</a></li>
-                <li><a href="#">January 2014</a></li>
-                <li><a href="#">December 2013</a></li>
-                <li><a href="#">November 2013</a></li>
-                <li><a href="#">October 2013</a></li>
-                <li><a href="#">September 2013</a></li>
-                <li><a href="#">August 2013</a></li>
-                <li><a href="#">July 2013</a></li>
-                <li><a href="#">June 2013</a></li>
-                <li><a href="#">May 2013</a></li>
-                <li><a href="#">April 2013</a></li>
-              </ol>
-            </div>
-      
-            <div class="col-6 p-4">
-              <h4 class="fst-italic">Elsewhere</h4>
-              <ol class="list-unstyled">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-              </ol>
-            </div>
-          </div>
-        </div>
+        <ul class="nav justify-content-center fw-bold cfs-4 bg-primary nuriwebNav ">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">PS4/5</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SWITCH</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">XBO/SX</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">PC</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">모바일</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">AC/고전</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">뉴스</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">핫딜</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">취미갤</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">β타임라인</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">β유게</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">커뮤니티</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">BEST</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">게임찾기</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">|</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">만화</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">피규어</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">프라</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">애니/책</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-di sabled="true">중고장터</a>
+            </li>
+        </ul>
 
-        <div class="col-2 cardAdvertising bg-warning">Advertising</div>
-    </main>
-</body>
+        <main class="row bg-secondary w-100 m-0">
+            <div class="col-2 cardAdvertising bg-warning lead">Advertising</div>
+
+            <div class="col-6 bg-success main_main">
+
+                <!-- main_main_card_navigator-section -->
+                <container class="d-flex justify-content-center ">
+                    <ul class="nav nav-tabs  bg-dark w-100 fw-bold cfs-4  ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#!">게임뉴스</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">베스트</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#!" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </container>
+
+                <container class="d-flex justify-content-center card_container w-100" >
+                    <div class="main_card w-50" >
+                        <div class="cards_main_image bg-info ">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title 1</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex cardAside w-50" >
+                        <div class="cardAside_card_section_one w-50">
+                            <div class=" costom_color_card cardAside_card">
+                                <div class="card-body">
+                                    <p class="card-title">Card title 2</p>
+                                </div>
+                            </div>
+                            <div class=" bg-info cardAside_card">
+                                <div class="card-body">
+                                    <p class="card-title">Card title 3</p>
+                                </div>
+                            </div>
+                            <div class=" bg-warning cardAside_card ">
+                                <div class="card-body">
+                                    <p class="card-title">Card title 4</p>
+                                </div>
+                            </div>
+                            <div class=" bg-success cardAside_card">
+                                <div class="card-body">
+                                    <p class="card-title">Card title 5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardAside_card_section_two w-50">
+                            <div class=" bg-danger cardAside_card">
+                                <div class="card-body">
+                                    <p class="card-title">Card title 6</p>
+                                </div>
+                            </div>
+                            <div class=" bg-info cardAside_card">
+                                <div class="card-body">
+                                    <p class="card-title">Card title 7</p>
+                                </div>
+                            </div>
+                            <div class=" bg-success cardAside_card">
+                                <div class="card-body">
+                                    <p class="card-title">Card title 8</p>
+                                </div>
+                            </div>
+                            <div class=" bg-warning cardAside_card">
+                                <div class="card-body">
+                                    <p class="card-title">Card title 9</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </container>
+
+                <div class="widget_bottom row">
+                    <div class="bottom_list col-6">
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-primary btn-sm cfs-2 pb-0 p-0 pe-1 ps-1">Multi
+                            </button> 검은사막, 개발진이 말하는 세이지 탄생 비화 [2]</div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-danger btn-sm cfs-2 pb-0 p-0 ">switch
+                            </button> 노 모어★히어로즈 3, 캐릭터·스토리·시스템 [27]</div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-primary btn-sm cfs-2 pb-0 p-0 pe-1 ps-1">Multi
+                            </button> 에이펙스 레전드, 새로운 규칙의 워 게임즈 [6]</div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-primary btn-sm cfs-2 pb-0 p-0 pe-1 ps-1">Multi
+                            </button> 검은사막, 삼성 ‘Neo QLED 8K’ 광고 등장 [2]</div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-primary btn-sm cfs-2 pb-0 p-0 pe-1 ps-1">Multi
+                            </button> 보더랜드3, 여섯 번째 확장콘텐츠 디렉터스 컷 [2]</div>
+                        </a>
+                        
+                    </div>
+                    <div class="bottom_list col-6">
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-primary btn-sm cfs-2 pb-0 p-0 pe-1 ps-1">Multi
+                            </button> GTA 온라인, ‘람파다티 트로포스 랠리’ 지급 [1]</div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-success btn-sm cfs-2 pb-0 p-0 ">Andro
+                            </button> 썸에이지, ‘데카론M’ 15일 사전 출시 확정 [1]</div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-danger btn-sm cfs-2 pb-0 p-0 ">switch
+                            </button> ‘유그드라 유니온’ 한국어판, 22일 출시 예정 [62]</div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-primary btn-sm cfs-2 pb-0 p-0 pe-1 ps-1">Multi
+                            </button> 알렉스 키드’ 리메이크, 해외 발매일 결정 [34]</div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action  py-3 lh-tight" aria-current="true">
+                            <div class="col-10 mb-1 small"><button type="button" class="btn btn-primary btn-sm cfs-2 pb-0 p-0 pe-1 ps-1">Multi
+                            </button> 동~그란 지구가 네모가 됐다고!? 5월 27일 [8]</div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-2 bg-danger">
+                <div class="row ">
+                    <div class="col-6 p-4 mb-3 bg-light rounded">
+                        <h4 class="fst-italic">About</h4>
+                        <p class="mb-0">Saw you downtown singing the Blues. Watch you circle the drain. Why don't you
+                            let me stop
+                            by? Heavy is the head that <em>wears the crown</em>. Yes, we make angels cry, raining down
+                            on earth from
+                            up above.</p>
+                    </div>
+
+                    <div class="col-6 p-4">
+                        <h4 class="fst-italic">Archives</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="#">March 2014</a></li>
+                            <li><a href="#">February 2014</a></li>
+                            <li><a href="#">January 2014</a></li>
+                            <li><a href="#">December 2013</a></li>
+                            <li><a href="#">November 2013</a></li>
+                            <li><a href="#">October 2013</a></li>
+                            <li><a href="#">September 2013</a></li>
+                            <li><a href="#">August 2013</a></li>
+                            <li><a href="#">July 2013</a></li>
+                            <li><a href="#">June 2013</a></li>
+                            <li><a href="#">May 2013</a></li>
+                            <li><a href="#">April 2013</a></li>
+                        </ol>
+                    </div>
+
+                    <div class="col-6 p-4">
+                        <h4 class="fst-italic">Elsewhere</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2 p-4 bg-pattern-waihou text-white">Advertising</div>
+        </main>
+    </body>
+
 </html>

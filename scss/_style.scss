@@ -2,29 +2,34 @@ body {
   display: block;
 }
 
-.headerNav {
+header {
+  .NURIWEB {
+    font-family: fantasy;
+  }
+}
+
+.nuriwebNav {
   font-family: Arial;
 }
 
-.NURIWEB {
-  font-family: fantasy;
-}
+main {
+  .costom_color_card {
+    color: aliceblue;
+    background-color: $nuriweb_color;
+  }
 
-header ul li .nav-link_text {
-  color: red;
-}
+  .cards_main_image {
+    width: 100%;
+    height: 320px;
+  }
 
-main .costom_color_card {
-  color: aliceblue;
-  background-color: $nuriweb_color;
-}
+  .cardAside_card {
+    width: 100%;
+    height: 80px;
+    border: solid 5px rgb(255, 255, 255);
+  }
 
-main .cardAside_card {
-  width: 200px;
-  height: 80px;
-  border: solid 5px rgb(255, 255, 255);
-}
-
-main .cardAside_card:hover {
-  border: solid 5px $nuriweb_color;
+  .cardAside_card:hover {
+    border: solid 5px $nuriweb_color;
+  }
 }
