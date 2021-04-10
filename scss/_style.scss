@@ -1,3 +1,7 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 body {
   display: block;
 }
@@ -31,5 +35,14 @@ main {
 
   .cardAside_card:hover {
     border: solid 5px $nuriweb_color;
+  }
+
+  .card_body_body {
+    .card_title {
+      position: relative;
+      bottom: 1.5rem;
+      font-size: x-small;
+      background-color: rgba(141, 141, 141, 0.493);
+    }
   }
 }
