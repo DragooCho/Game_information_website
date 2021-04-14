@@ -17,6 +17,9 @@ header {
 }
 
 main {
+  .main_main_aside {
+    background-color: #f8f8f8;
+  }
   .costom_color_card {
     color: aliceblue;
     background-color: $nuriweb_color;
@@ -48,6 +51,19 @@ main {
   .gamenews_section {
     .list-group-item {
       border: none;
+    }
+  }
+  .login_btn {
+    color: white;
+    padding: 5px 64px;
+
+    .NURIWEB {
+      font-family: fantasy;
+    }
+    .logIn_text {
+      font-family: Dotum;
+      font-weight: 700;
+      margin-left: 1vh;
     }
   }
 }
