@@ -48,11 +48,7 @@ main {
       background-color: rgba(141, 141, 141, 0.493);
     }
   }
-  .gamenews_section {
-    .list-group-item {
-      border: none;
-    }
-  }
+
   .login_btn {
     color: white;
     padding: 5px 64px;
@@ -64,6 +60,11 @@ main {
       font-family: Dotum;
       font-weight: 700;
       margin-left: 1vh;
+    }
+  }
+  .button_wrapper {
+    button {
+      width: 8vh;
     }
   }
 }
