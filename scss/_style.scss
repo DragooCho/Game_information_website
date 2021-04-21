@@ -30,9 +30,20 @@ main {
   }
 
   .main_card {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
     background-image: url("/imeges/image_022.jpg");
     background-size: cover;
     background-position: center;
+    width: 70%;
+    p {
+      text-align: center;
+      background-color: $card_title_color;
+      color: $nav-link-color;
+      font-family: Dotum;
+      font-weight: 400;
+    }
   }
 
   .cardAside_card {
@@ -49,6 +60,7 @@ main {
     }
 
     .card-text {
+      font-family: sans-serif;
       text-align: center;
       color: $nav-link-color;
     }
@@ -144,8 +156,10 @@ main {
   .bbs_link ol li {
     margin-bottom: 5px;
   }
-  .gamenews_section a {
-    border: none;
+  .gamenews_section {
+    a {
+      border: none;
+    }
   }
 }
 
