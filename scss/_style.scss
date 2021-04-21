@@ -33,7 +33,7 @@ main {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    background-image: url("/imeges/image_022.jpg");
+    background-image: url("https://raw.githubusercontent.com/DragooCho/TIL/main/image/image_022.jpg");
     background-size: cover;
     background-position: center;
     width: 70%;
@@ -65,19 +65,19 @@ main {
       color: $nav-link-color;
     }
     &:nth-child(1) {
-      background-image: url("/imeges/image_007.jpg");
+      background-image: url("https://raw.githubusercontent.com/DragooCho/TIL/main/image/image_007.jpg");
       background-size: cover;
     }
     &:nth-child(2) {
-      background-image: url("/imeges/image_008.jpg");
+      background-image: url("https://raw.githubusercontent.com/DragooCho/TIL/main/image/image_008.jpg");
       background-size: cover;
     }
     &:nth-child(3) {
-      background-image: url("/imeges/image_009.jpg");
+      background-image: url("https://raw.githubusercontent.com/DragooCho/TIL/main/image/image_009.jpg");
       background-size: cover;
     }
     &:nth-child(4) {
-      background-image: url("/imeges/image_010.jpg");
+      background-image: url("https://raw.githubusercontent.com/DragooCho/TIL/main/image/image_010.jpg");
       background-size: cover;
     }
   }
@@ -100,19 +100,19 @@ main {
       color: $nav-link-color;
     }
     &:nth-child(1) {
-      background-image: url("/imeges/image_011.jpg");
+      background-image: url("https://raw.githubusercontent.com/DragooCho/TIL/main/image/image_011.jpg");
       background-size: cover;
     }
     &:nth-child(2) {
-      background-image: url("/imeges/image_012.jpg");
+      background-image: url("https://raw.githubusercontent.com/DragooCho/TIL/main/image/image_012.jpg");
       background-size: cover;
     }
     &:nth-child(3) {
-      background-image: url("/imeges/image_013.jpg");
+      background-image: url("https://raw.githubusercontent.com/DragooCho/TIL/main/image/image_013.jpg");
       background-size: cover;
     }
     &:nth-child(4) {
-      background-image: url("/imeges/image_014.jpg");
+      background-image: url("https://raw.githubusercontent.com/DragooCho/TIL/main/image/image_014.jpg");
       background-size: cover;
     }
   }
