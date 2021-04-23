@@ -12,6 +12,13 @@ header {
   }
 }
 
+.mouseHoverEffect {
+  transition: all 0.2s ease-in-out;
+}
+.mouseHoverEffect:hover {
+  transform: scale(1.2);
+}
+
 .nuriwebNav {
   font-family: Arial;
 }
@@ -37,12 +44,12 @@ main {
     background-size: cover;
     background-position: center;
     width: 70%;
+    transition: all 0.3s ease-in-out;
     p {
       text-align: center;
       background-color: $card_title_color;
       color: $nav-link-color;
       font-family: Dotum;
-      font-weight: 400;
     }
   }
 
@@ -117,6 +124,10 @@ main {
     }
   }
 
+  .cardAside_card,
+  .cardAside_card2 {
+    transition: all 0.5s ease-in-out;
+  }
   .cardAside_card:hover,
   .cardAside_card2:hover {
     border: solid 5px $nuriweb_color;
