@@ -18,9 +18,18 @@
 - **HTML5**
 - Bootstrap 5.0.0 beta1
 
+<br>
 
+## 3. DEMO 📽
 
-## 3. 그 외 프로젝트에 대한 기술...
+https://dragoocho.github.io/game_information_website/
+
+<br>
+
+## 4. 그 외 프로젝트에 대한 기술...
 - 이 프로젝트의 자세한 진행과정은 여기 링크 안에 기록해 두었습니다.     
   https://url.kr/3i6t8d
+  
+  
+ 
 
