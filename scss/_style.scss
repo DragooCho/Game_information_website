@@ -31,7 +31,9 @@ main {
   .main_main_aside {
     background-color: #f8f8f8;
     section {
-      button {
+      span {
+        width: 25%;
+        padding: 0.5rem 0.5rem;
         h6 {
           font-size: 12px;
           margin: 0;
