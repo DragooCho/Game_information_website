@@ -34,11 +34,13 @@ main {
       span {
         width: 25%;
         padding: 0.5rem 0.5rem;
-        h6 {
-          font-size: 12px;
-          margin: 0;
-        }
+        font-size: 12px;
+        margin: 0;
       }
+    }
+    a {
+      font-family: Dotum;
+      cursor: pointer;
     }
   }
   .costom_color_card {
